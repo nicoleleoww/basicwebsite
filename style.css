@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  margin-top: 50px;
+  background: url(bg.jpg) no-repeat;
+  background-size: 1300px 690px;
+  background-color:beige;
+  font-family: sans-serif; /* Add this line */
+}
+
+.box {
+  width: 440px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+  background-color: black;
+}
+
+header * {
+  display: inline;
+  height: 50px;
+}
+
+header ul {
+  padding: 0;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+#contact ul {
+  margin: 0;
+  padding: 0;
+}
+
+#contact li {
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+
+section {
+  height: 110vh;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#about {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+#home .profile-img {
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Add everything below here */
+
+#home h1 {
+  font-size: 3em;
+}
+
+section h2 {
+  font-size: 2.5em;
+}
+
+section h3 {
+  font-size: 1.5em;
+}
+
+header a {
+  font-family: 'Century Gothic', sans-serif;
+  text-decoration: none;
+  color: white;
+}
