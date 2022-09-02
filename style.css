@@ -43,6 +43,10 @@ header li {
   margin-left: 20px;
 }
 
+nav ul li a:hover{
+  color: lightblue;
+}
+
 #contact ul {
   margin: 0;
   padding: 0;
@@ -94,7 +98,8 @@ section h3 {
 }
 
 header a {
-  font-family: 'Century Gothic', sans-serif;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
   text-decoration: none;
   color: white;
 }
